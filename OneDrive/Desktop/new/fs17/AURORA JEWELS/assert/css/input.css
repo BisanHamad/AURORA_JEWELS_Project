@@ -1,25 +1,35 @@
 @import "tailwindcss";
 
 
-@theme{
-    --color-headerBackground:#fbf8ff;
-    ---color-background:###f5effc;
-    --color-textPrimary:#581c87;
-    --color-textSecondary:#a463dd;
-    --color-underLineList:#9333ea;
-    --font-Inter:"Inter", sans-serif;
+@theme {
+    --color-headerBackground: #fbf8ff;
+    --color-background: #f6effc;
+    --color-textPrimary: #581c87;
+    --color-textSecondary: #a463dd;
+    --color-underLineList: #9333ea;
+    --font-Inter: "Inter", sans-serif;
     --font-NotoSerif: "Noto Serif", serif;
 }
+
 @layer base {
-    body{
-        font-family : var(--font-Inter);
+    body {
+        font-family: var(--font-Inter);
+        background-color: var(--color-background);
     }
-    a,button{
+
+    .container {
+        @apply mx-auto;
+        @apply px-12;
+        @apply md:px-0;
+    }
+
+    a,
+    button {
         @apply cursor-pointer;
     }
 }
-@utility nav-list
-{
-    @apply hover:text-textPrimary hover:underline decoration-2 hover:decoration-underLineList   transition-all duration-75;
-    @apply  font-NotoSerif tracking-[0.4px] text-base;
+
+@utility nav-list {
+    @apply hover:text-textPrimary hover:underline decoration-2 hover:decoration-underLineList transition-all duration-75;
+    @apply font-NotoSerif tracking-[0.4px] text-base;
 }
