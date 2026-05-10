@@ -70,7 +70,7 @@
         </div>
     </header>
     <main>
-        <section class="hero block md:flex md:h-[calc(100vh-72.8px)]">
+        <section class="hero block md:flex md:h-[calc(100vh-72.8px)] md:overflow-hidden">
             <div class="hero-detailes lg:pl-24 lg:pr-60 lg:py-9 py-4.5 pr-30 pl-12 lg:flex-1 ">
                 <span class="text-[#4C0080] text-[12px] tracking-[2.4px]">NEW COLLECTION — 2026</span>
                 <h1 class="font-NotoSerif text-4xl lg:text-7xl lg:py-4 py-2">
@@ -89,41 +89,41 @@
                         Collection</a>
                 </div>
             </div>
-            <div class="hero-img bg-[#E9DDFF]">
+            <div class="hero-img bg-[#E9DDFF] mt-4">
                 <img src="./assert/imges/Homepage imges/hero section img/necklaces.webp"
-                    class="lg:py-15 lg:px-[57.6px] py-7.5 px-[28.8px]" alt="necklaces">
+                    class="lg:py-15 lg:px-[57.6px] py-7.5 px-[28.8px] w-full" alt="necklaces">
             </div>
         </section>
-        <section class="categories container mx-auto items-center justify-between lg:pt-24 pt-26 pb-32 px-12 ">
+        <section class="categories container  mx-auto lg:pt-24 pt-26 pb-32 px-12">
             <h2 class="font-NotoSerif text-[30px] pb-12">Shop by category</h2>
-            <div class="flex gap-30">
-                <div>
-                    <img src="./assert/imges/Homepage imges/categories section img/Rings.webp" alt="Rings images" />
+            <div class="items grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="item">
+                    <img src="./assert/imges/Homepage imges/categories section img/Rings.webp" class="w-full" alt="Rings images" />
                     <div class="flex pt-4 justify-between">
                         <h3 class="text-lg">Rings</h3>
                         <span class="text-xs text-[#4D4353]">124 ITEMS</span>
                     </div>
                 </div>
-                <div>
+                <div class="item">
                     <img src="./assert/imges/Homepage imges/categories section img/Necklaces.webp"
-                        alt="Necklaces images" />
+                       class="w-full" alt="Necklaces images" />
                     <div class="flex pt-4 justify-between">
                         <h3 class="text-lg">Necklaces</h3>
                         <span class="text-xs text-[#4D4353] direct">86 ITEMS</span>
                     </div>
                 </div>
-                <div>
+                <div class="item">
                     <img src="./assert/imges/Homepage imges/categories section img/Earrings.webp"
-                        alt="Earrings images" />
+                       class="w-full" alt="Earrings images" />
                     <div class="flex pt-4 justify-between">
                         <h3 class="text-lg">Earrings</h3>
                         <span class="text-xs text-[#4D4353]">142 ITEMS</span>
                     </div>
 
                 </div>
-                <div>
+                <div class="item">
                     <img src="./assert/imges/Homepage imges/categories section img/Bracelets.webp"
-                        alt="Bracelets images" />
+                        alt="Bracelets images" class="w-full" />
                     <div class="flex pt-4 justify-between">
                         <h3 class="text-lg">Bracelets</h3>
                         <span class="text-xs text-[#4D4353]">63 ITEMS</span>
@@ -132,6 +132,7 @@
                 </div>
             </div>
         </section>
+</div>
     </main>
 </body>
 
