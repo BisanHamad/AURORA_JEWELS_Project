@@ -937,6 +937,9 @@
   .text-\[36px\] {
     font-size: 36px;
   }
+  .text-\[56px\] {
+    font-size: 56px;
+  }
   .tracking-\[0\.7px\] {
     --tw-tracking: 0.7px;
     letter-spacing: 0.7px;
