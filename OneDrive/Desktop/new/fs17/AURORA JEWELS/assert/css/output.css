@@ -21,7 +21,9 @@
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-7xl: 4.5rem;
     --text-7xl--line-height: 1;
+    --tracking-normal: 0em;
     --radius-sm: 0.25rem;
+    --radius-md: 0.375rem;
     --radius-lg: 0.5rem;
     --radius-xl: 0.75rem;
     --radius-2xl: 1rem;
@@ -201,11 +203,41 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .top-3 {
+    top: calc(var(--spacing) * 3);
+  }
+  .top-3\.5 {
+    top: calc(var(--spacing) * 3.5);
+  }
   .top-4 {
     top: calc(var(--spacing) * 4);
   }
+  .top-\[14px\] {
+    top: 14px;
+  }
+  .right-1 {
+    right: calc(var(--spacing) * 1);
+  }
+  .right-2 {
+    right: calc(var(--spacing) * 2);
+  }
   .left-4 {
     left: calc(var(--spacing) * 4);
+  }
+  .left-50 {
+    left: calc(var(--spacing) * 50);
+  }
+  .left-55 {
+    left: calc(var(--spacing) * 55);
+  }
+  .left-55\.5 {
+    left: calc(var(--spacing) * 55.5);
+  }
+  .left-\[122px\] {
+    left: 122px;
+  }
+  .left-\[222px\] {
+    left: 222px;
   }
   .container {
     width: 100%;
@@ -309,8 +341,17 @@
   .gap-12 {
     gap: calc(var(--spacing) * 12);
   }
+  .gap-13 {
+    gap: calc(var(--spacing) * 13);
+  }
+  .gap-45 {
+    gap: calc(var(--spacing) * 45);
+  }
   .gap-68 {
     gap: calc(var(--spacing) * 68);
+  }
+  .gap-145 {
+    gap: calc(var(--spacing) * 145);
   }
   .gap-\[227\.01px\] {
     gap: 227.01px;
@@ -329,6 +370,9 @@
   }
   .rounded-lg {
     border-radius: var(--radius-lg);
+  }
+  .rounded-md {
+    border-radius: var(--radius-md);
   }
   .rounded-sm {
     border-radius: var(--radius-sm);
@@ -354,6 +398,12 @@
   }
   .bg-\[\#6A0DAD\] {
     background-color: #6A0DAD;
+  }
+  .bg-\[\#6B7280\] {
+    background-color: #6B7280;
+  }
+  .bg-\[\#E4E1E9\] {
+    background-color: #E4E1E9;
   }
   .bg-\[\#E9DDFF\] {
     background-color: #E9DDFF;
@@ -403,6 +453,9 @@
   .px-12 {
     padding-inline: calc(var(--spacing) * 12);
   }
+  .px-\[16px\] {
+    padding-inline: 16px;
+  }
   .px-\[28\.8px\] {
     padding-inline: 28.8px;
   }
@@ -417,6 +470,12 @@
   }
   .py-2\.25 {
     padding-block: calc(var(--spacing) * 2.25);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
+  .py-3\.25 {
+    padding-block: calc(var(--spacing) * 3.25);
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
@@ -445,8 +504,20 @@
   .py-\[3\.5px\] {
     padding-block: 3.5px;
   }
+  .py-\[13px\] {
+    padding-block: 13px;
+  }
   .py-\[15\.62px\] {
     padding-block: 15.62px;
+  }
+  .py-\[18\.5\] {
+    padding-block: 18.5;
+  }
+  .py-\[18\.5px\] {
+    padding-block: 18.5px;
+  }
+  .py-\[18\.\] {
+    padding-block: 18.;
   }
   .py-px {
     padding-block: 1px;
@@ -496,11 +567,20 @@
   .pt-28\.25 {
     padding-top: calc(var(--spacing) * 28.25);
   }
+  .pt-32 {
+    padding-top: calc(var(--spacing) * 32);
+  }
+  .pt-32\.25 {
+    padding-top: calc(var(--spacing) * 32.25);
+  }
   .pt-\[32\.6px\] {
     padding-top: 32.6px;
   }
   .pt-\[74\.5px\] {
     padding-top: 74.5px;
+  }
+  .pt-\[129px\] {
+    padding-top: 129px;
   }
   .pr-2 {
     padding-right: calc(var(--spacing) * 2);
@@ -555,6 +635,18 @@
   }
   .pb-48 {
     padding-bottom: calc(var(--spacing) * 48);
+  }
+  .pb-\[23\.6px\] {
+    padding-bottom: 23.6px;
+  }
+  .pb-\[23\.13px\] {
+    padding-bottom: 23.13px;
+  }
+  .pb-\[24\] {
+    padding-bottom: 24;
+  }
+  .pb-\[24px\] {
+    padding-bottom: 24px;
   }
   .pb-\[32\.6px\] {
     padding-bottom: 32.6px;
@@ -673,6 +765,10 @@
     --tw-tracking: 0.5px;
     letter-spacing: 0.5px;
   }
+  .tracking-\[0\.6\] {
+    --tw-tracking: 0.6;
+    letter-spacing: 0.6;
+  }
   .tracking-\[0\.6px\] {
     --tw-tracking: 0.6px;
     letter-spacing: 0.6px;
@@ -680,6 +776,10 @@
   .tracking-\[0\.7px\] {
     --tw-tracking: 0.7px;
     letter-spacing: 0.7px;
+  }
+  .tracking-\[0\.\] {
+    --tw-tracking: 0.;
+    letter-spacing: 0.;
   }
   .tracking-\[1\.2px\] {
     --tw-tracking: 1.2px;
@@ -701,6 +801,10 @@
     --tw-tracking: 2px;
     letter-spacing: 2px;
   }
+  .tracking-normal {
+    --tw-tracking: var(--tracking-normal);
+    letter-spacing: var(--tracking-normal);
+  }
   .text-\[\#1B1B21\] {
     color: #1B1B21;
   }
@@ -709,6 +813,9 @@
   }
   .text-\[\#4D4353\] {
     color: #4D4353;
+  }
+  .text-\[\#6B7280\] {
+    color: #6B7280;
   }
   .text-\[\#7E22CE\] {
     color: #7E22CE;
