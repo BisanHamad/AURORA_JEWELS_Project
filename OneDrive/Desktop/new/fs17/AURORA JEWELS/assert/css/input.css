@@ -33,3 +33,8 @@
     @apply hover:text-textPrimary hover:underline decoration-2 hover:decoration-underLineList transition-all duration-75;
     @apply font-NotoSerif tracking-[0.4px] text-base;
 }
+.layout{
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    grid-template-areas: "left-sidebar main";
+}
