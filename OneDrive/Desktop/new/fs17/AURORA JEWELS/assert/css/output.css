@@ -205,6 +205,21 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .top-0\.5 {
+    top: calc(var(--spacing) * 0.5);
+  }
+  .top-1 {
+    top: calc(var(--spacing) * 1);
+  }
+  .top-1\.5 {
+    top: calc(var(--spacing) * 1.5);
+  }
+  .top-2 {
+    top: calc(var(--spacing) * 2);
+  }
+  .top-2\.5 {
+    top: calc(var(--spacing) * 2.5);
+  }
   .top-3 {
     top: calc(var(--spacing) * 3);
   }
@@ -214,8 +229,20 @@
   .top-4 {
     top: calc(var(--spacing) * 4);
   }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
   .left-4 {
     left: calc(var(--spacing) * 4);
+  }
+  .left-10 {
+    left: calc(var(--spacing) * 10);
+  }
+  .left-40 {
+    left: calc(var(--spacing) * 40);
+  }
+  .left-47 {
+    left: calc(var(--spacing) * 47);
   }
   .left-50 {
     left: calc(var(--spacing) * 50);
@@ -304,6 +331,9 @@
   .flex-1 {
     flex: 1;
   }
+  .flex-5 {
+    flex: 5;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -370,6 +400,9 @@
   .gap-68 {
     gap: calc(var(--spacing) * 68);
   }
+  .gap-\[24px\] {
+    gap: 24px;
+  }
   .gap-\[227\.01px\] {
     gap: 227.01px;
   }
@@ -397,12 +430,25 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
+  .rounded-tr-lg {
+    border-top-right-radius: var(--radius-lg);
+  }
   .rounded-b {
     border-bottom-right-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem;
   }
   .rounded-b-full {
     border-bottom-right-radius: calc(infinity * 1px);
+    border-bottom-left-radius: calc(infinity * 1px);
+  }
+  .rounded-b-none {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .rounded-br-lg {
+    border-bottom-right-radius: var(--radius-lg);
+  }
+  .rounded-bl-full {
     border-bottom-left-radius: calc(infinity * 1px);
   }
   .border {
@@ -460,6 +506,9 @@
   }
   .bg-\[\#FFFFFF\] {
     background-color: #FFFFFF;
+  }
+  .bg-\[\#\] {
+    background-color: #;
   }
   .bg-headerBackground {
     background-color: var(--color-headerBackground);
@@ -520,6 +569,9 @@
   }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
+  }
+  .py-3\.5 {
+    padding-block: calc(var(--spacing) * 3.5);
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
@@ -964,6 +1016,9 @@
   .text-\[\#\#48484d\] {
     color: ##48484d;
   }
+  .text-\[\#\#bb8ce4\] {
+    color: ##bb8ce4;
+  }
   .text-\[\#1B1B21\] {
     color: #1B1B21;
   }
@@ -1003,11 +1058,17 @@
   .text-\[\#BA1A1A\] {
     color: #BA1A1A;
   }
+  .text-\[\#BB8ce4\] {
+    color: #BB8ce4;
+  }
   .text-\[\#D4A1FF\] {
     color: #D4A1FF;
   }
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
+  }
+  .text-\[\#JOIN\] {
+    color: #JOIN;
   }
   .text-\[\#\] {
     color: #;
