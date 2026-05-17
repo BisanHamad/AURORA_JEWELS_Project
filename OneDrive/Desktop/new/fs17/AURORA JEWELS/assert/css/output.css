@@ -572,6 +572,9 @@
   .gap-45 {
     gap: calc(var(--spacing) * 45);
   }
+  .gap-55 {
+    gap: calc(var(--spacing) * 55);
+  }
   .gap-68 {
     gap: calc(var(--spacing) * 68);
   }
@@ -697,6 +700,9 @@
   }
   .bg-\[\#F5F2FA\] {
     background-color: #F5F2FA;
+  }
+  .bg-\[\#FBF8FF\] {
+    background-color: #FBF8FF;
   }
   .bg-\[\#FFDAD6\] {
     background-color: #FFDAD6;
@@ -1717,6 +1723,9 @@
   }
   .text-\[\#D4A1FF\] {
     color: #D4A1FF;
+  }
+  .text-\[\#FBF8FF\] {
+    color: #FBF8FF;
   }
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
