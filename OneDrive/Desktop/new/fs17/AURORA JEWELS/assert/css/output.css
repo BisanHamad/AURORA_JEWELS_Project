@@ -1063,14 +1063,26 @@
   .py-\[10\.\] {
     padding-block: 10.;
   }
+  .py-\[10p\] {
+    padding-block: 10p;
+  }
   .py-\[10px\] {
     padding-block: 10px;
   }
   .py-\[13\.5\] {
     padding-block: 13.5;
   }
+  .py-\[13\.33px\] {
+    padding-block: 13.33px;
+  }
+  .py-\[15\.33px\] {
+    padding-block: 15.33px;
+  }
   .py-\[15\.62px\] {
     padding-block: 15.62px;
+  }
+  .py-\[17\.33px\] {
+    padding-block: 17.33px;
   }
   .py-\[18\.5px\] {
     padding-block: 18.5px;
